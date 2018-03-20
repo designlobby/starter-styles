@@ -1,0 +1,80 @@
+// Navigation
+
+.sf-menu {
+
+  display: none;
+  visibility: hidden;
+
+  @include gridle_state ( md lg ) {
+    display: block;
+    visibility: visible;
+  }
+
+}
+
+// Essential styles
+
+.sf-menu, .sf-menu * {margin: 0; padding: 0; list-style: none;}
+.sf-menu li {position: relative;}
+.sf-menu ul {position: absolute; display: none; top: 100%; left: 0; font-size: 0; z-index: 99;}
+.sf-menu > li {float: left;}
+.sf-menu li:hover > ul, .sf-menu li.sfHover > ul {display: block;}
+.sf-menu a {display: block; position: relative;}
+.sf-menu ul ul {top: 0; left: 100%;}
+
+// #menu-primary-navigation
+
+// uncomment for centred nav
+//
+// #menu-primary-navigation {
+//   float: left;
+//   position: relative;
+//   left: 50%;
+// }
+// */
+
+.sf-menu ul {
+  min-width: 240px; // allow long menu items to determine submenu width
+  *width: 240px; // no auto sub width for IE7, see white-space comment below
+}
+
+.sf-menu li {
+  white-space: nowrap; // no need for Supersubs plugin
+  *white-space: normal; // ...unless you support IE7 (let it wrap)
+  // left: -50%; uncomment for centred nav
+
+  a {
+    padding: 0;
+    font-family: $nav-font-family;
+    font-size: $nav-font-size;
+    font-weight: $nav-font-weight;
+    color: $nav-font-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    zoom: 1; // IE7
+    transition: color .8s;
+
+    &:hover,
+    &:focus {color: $nav-font-hover-color;}
+
+  }
+}
+
+.sf-menu li.active a,
+.sf-menu li.sfHover a {
+  color: $nav-font-hover-color;
+}
+
+.sf-menu li.sfHover ul li a {
+  padding: 10px 16px;
+  background: $nav-dd-bg-color;
+  border-bottom: $nav-dd-border-bottom;
+  font-size: $nav-dd-font-size;
+  color: $nav-dd-font-color;
+
+  &:hover,
+  &:focus {
+    color: $nav-dd-font-hover-color;
+    background: $nav-dd-bg-hover-color;
+  }
+}

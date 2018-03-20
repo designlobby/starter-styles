@@ -1,0 +1,447 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.scss",
+			"settings":
+			{
+				"buffer_size": 2128,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: Install Packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/designlobby/Sites/starter-styles",
+		"/Users/designlobby/Sites/starter-styles/base",
+		"/Users/designlobby/Sites/starter-styles/config",
+		"/Users/designlobby/Sites/starter-styles/forms",
+		"/Users/designlobby/Sites/starter-styles/layout",
+		"/Users/designlobby/Sites/starter-styles/module"
+	],
+	"file_history":
+	[
+		"/Users/designlobby/Sites/starter-styles/module/_forms.scss",
+		"/Users/designlobby/Sites/starter-styles/config/variables/_forms.scss",
+		"/Users/designlobby/Sites/starter-styles/main.scss",
+		"/Users/designlobby/Sites/starter-styles/config/_utilities.scss",
+		"/Users/designlobby/Sites/starter-styles/module/_navigation.scss",
+		"/Users/designlobby/Sites/starter-styles/base/_lists.scss",
+		"/Users/designlobby/Sites/starter-styles/helpers/_wordpress.scss",
+		"/Users/designlobby/Sites/starter-styles/module/_gallery.scss",
+		"/Users/designlobby/Sites/starter-styles/layout/_spacing.scss",
+		"/Users/designlobby/Sites/starter-styles/base/_base.scss",
+		"/Users/designlobby/Sites/starter-styles/config/variables/_sizes.scss",
+		"/Users/designlobby/Sites/starter-styles/base/_tables.scss",
+		"/Users/designlobby/Sites/starter-styles/module/_social.scss",
+		"/Users/designlobby/Sites/starter-styles/config/variables/_colours.scss",
+		"/Users/designlobby/Sites/starter-styles/module/_buttons.scss",
+		"/Users/designlobby/Sites/starter-styles/config/placeholders/_shadow.scss",
+		"/Users/designlobby/Sites/starter-styles/forms/_form-gravity.scss",
+		"/Users/designlobby/Sites/starter-styles/starter-styles.sublime-project",
+		"/Users/designlobby/Sites/starter-styles/vendor/_gravityforms.scss",
+		"/Users/designlobby/Sites/starter-styles/module/_sidebar.scss",
+		"/Users/designlobby/Sites/starter-styles/module/_footer.scss",
+		"/Users/designlobby/Sites/starter-styles/module/_header.scss",
+		"/Users/designlobby/Sites/starter-styles/module/_main.scss",
+		"/Users/designlobby/Sites/starter-styles/layout/_z-index.scss",
+		"/Users/designlobby/Sites/starter-styles/layout/_grid-structure.scss",
+		"/Users/designlobby/Sites/starter-styles/forms/_form-variables.scss",
+		"/Users/designlobby/Sites/starter-styles/forms/_form-mixins.scss",
+		"/Users/designlobby/Sites/starter-styles/config/_grid.scss",
+		"/Users/designlobby/Sites/starter-styles/config/_bem.scss",
+		"/Users/designlobby/Sites/starter-styles/config/variables/_typography.scss",
+		"/Users/designlobby/Sites/starter-styles/config/variables/_grid.scss",
+		"/Users/designlobby/Sites/starter-styles/config/variables/_navigation.scss",
+		"/Users/designlobby/Sites/starter-styles/config/variables/_buttons.scss",
+		"/Users/designlobby/Sites/starter-styles/config/variables/_base.scss",
+		"/Users/designlobby/Sites/starter-styles/config/mixins/_aspect-ratio.scss",
+		"/Users/designlobby/Sites/starter-styles/config/mixins/_buttons.scss",
+		"/Users/designlobby/Sites/starter-styles/base/_typography.scss",
+		"/Users/designlobby/Sites/starter-styles/base/_retina.scss",
+		"/Users/designlobby/Sites/starter-styles/base/_print.scss",
+		"/Users/designlobby/Sites/starter-styles/base/_box-sizing.scss",
+		"/Users/designlobby/Sites/starter-styles/forms/_form-default.scss",
+		"/Users/designlobby/Sites/starter-styles/.scss-lint.yml",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/public_html/app/themes/medac/base-front-page.php",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/public_html/app/themes/medac/templates/head.php",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/public_html/app/themes/medac/templates/header.php",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/composer.json",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/public_html/app/themes/medac/lib/setup.php",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/public_html/app/themes/medac/assets/manifest.json",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/.env",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/.gitignore",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/wp-cli.yml",
+		"/Users/designlobby/Sites/VVV/www/medac/vvv-init.sh",
+		"/Users/designlobby/Sites/VVV/www/medac/vvv-hosts",
+		"/Users/designlobby/Sites/VVV/www/medac/vvv-nginx.conf",
+		"/Users/designlobby/Sites/VVV/www/medac/htdocs/config/application.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/lib/assets.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/lib/setup.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-quote.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-video.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-link.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-image.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-gallery.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-audio.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-aside.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/assets/styles/layout/_blocks.scss",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-search.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/assets/styles/base/_typography.scss",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/header.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-standard.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/content-single.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/sidebar.php",
+		"/Users/designlobby/Sites/VVV/www/gfh/htdocs/public_html/app/themes/gfh/templates/comments.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/base-front-page.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/section-contact.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/woocommerce/content-single-product.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/content-page-2col.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/content-page-sourcing.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/layout/_grid-structure.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/lib/custom.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/lib/setup.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/module/_forms.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/module/_section.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/module/_modaal.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/scripts/modaal.js",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/manifest.json",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/scripts/main.js",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/main.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/lib/woo-hooks.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/woocommerce/single-product/price.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/module/_product-page.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/module/_menu-toggle.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/base.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/woocommerce/single-product/product-thumbnails.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/module/_product-sale-flash.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/woocommerce/loop/sale-flash.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/woocommerce/single-product/sale-flash.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/woocommerce/single-product/short-description.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/woocommerce/single-product.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/single-product.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/woocommerce/archive-product.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/archive-product.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/lib/woo-template-tags.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/footer.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/header.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/hero.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/page-header-shop.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/page-header.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/section-story.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/section-newsletter.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/section-featured.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/content-page.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/module/_product-cat-list.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/section-social.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/config/variables/_sizes.scss",
+		"/Users/designlobby/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/salvagedsecrets.sublime-project",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/assets/styles/module/_brand.scss",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/templates/breadcrumbs.php",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/vvv-nginx.conf",
+		"/Users/designlobby/Sites/VVV/www/salvagedsecrets/htdocs/public_html/app/themes/salvagedsecrets/404.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"web",
+			"'",
+			"B-b",
+			"footer",
+			"modaal-content-container",
+			"modaal",
+			"woocommerce_template_single_excerpt",
+			"2400"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"public_html",
+			"\"",
+			"B",
+			"1600"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark) (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "starter-styles.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/VVV/www/timeline/timeline.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 328.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,209 @@
+@include b(social-menu) {
+
+  @extend %center-h;
+  display: block;
+  padding: 0;
+  margin: 0 auto 2rem;
+  font-size: 0;
+
+  @include e(item) {
+
+    display: inline-block;
+    margin-right: 1.5rem;
+    vertical-align: middle;
+
+    @include gridle_state ( tb ) {
+
+      margin-right: 2rem;
+
+    }
+
+    &:last-child {margin-right: 0;}
+
+    a {
+
+      display: block;
+      width: 40px;
+      height: 40px;
+
+      @include gridle_state ( tb ) {
+
+        width: 60px;
+        height: 60px;
+
+      }
+
+    }
+
+    a.facebook {
+
+      .social-icon {
+        .circle {
+          fill: none;
+          stroke: $social-facebook;
+          stroke-width: 2;
+        }
+        .icon {
+          fill: $social-facebook;
+        }
+        &:hover {
+          .circle {
+            stroke: $social-facebook;
+          }
+          .icon {
+            fill: $social-facebook;
+          }
+        }
+      }
+
+    }
+
+    a.twitter {
+
+      .social-icon {
+        .circle {
+          fill: none;
+          stroke: $social-twitter;
+          stroke-width: 2;
+        }
+        .icon {
+          fill: $social-twitter;
+        }
+        &:hover {
+          .circle {
+            stroke: $social-twitter;
+          }
+          .icon {
+            fill: $social-twitter;
+          }
+        }
+      }
+
+    }
+
+    a.instagram {
+
+      .social-icon {
+        .circle {
+          fill: none;
+          stroke: $social-instagram;
+          stroke-width: 2;
+        }
+        .icon {
+          fill: $social-instagram;
+        }
+        &:hover {
+          .circle {
+            stroke: $social-instagram;
+          }
+          .icon {
+            fill: $social-instagram;
+          }
+        }
+      }
+
+    }
+
+    a.pinterest {
+
+      .social-icon {
+        .circle {
+          fill: none;
+          stroke: $social-pinterest;
+          stroke-width: 2;
+        }
+        .icon {
+          fill: $social-pinterest;
+        }
+        &:hover {
+          .circle {
+            stroke: $social-pinterest;
+          }
+          .icon {
+            fill: $social-pinterest
+          }
+        }
+      }
+
+    }
+
+    a.rss {
+
+      .social-icon {
+        .circle {
+          fill: none;
+          stroke: $social-rss;
+          stroke-width: 2;
+        }
+        .icon {
+          fill: $social-rss;
+        }
+        &:hover {
+          .circle {
+            stroke: $social-rss;
+          }
+          .icon {
+            fill: $social-rss;
+          }
+        }
+      }
+
+    }
+
+  }
+
+}
+
+REMEMBER TO ADD SVG FILES FIRST OR EXPECT PROBLEMS!!!
+
+<?php if(get_field('has_social_links', 'option') == "y" ): ?>
+
+<ul class="social-menu">
+  <?php if(get_field('social_facebook_url', 'option') ): ?>
+    <li class="social-menu__item">
+      <a href="<?php the_field('social_facebook_url', 'option') ?>" target="_blank" class="facebook">
+        <?php
+          echo file_get_contents(get_template_directory_uri() . '/templates/svg/icon-facebook.svg');
+        ?>
+      </a>
+    </li>
+  <?php endif; ?>
+  <?php if(get_field('social_twitter_url', 'option') ): ?>
+    <li class="social-menu__item">
+      <a href="<?php the_field('social_twitter_url', 'option') ?>" target="_blank" class="twitter">
+        <?php
+          echo file_get_contents(get_template_directory_uri() . '/templates/svg/icon-twitter.svg');
+        ?>
+      </a>
+    </li>
+  <?php endif; ?>
+  <?php if(get_field('social_instagram_url', 'option') ): ?>
+    <li class="social-menu__item">
+      <a href="<?php the_field('social_instagram_url', 'option') ?>" target="_blank" class="instagram">
+        <?php
+          echo file_get_contents(get_template_directory_uri() . '/templates/svg/icon-instagram.svg');
+        ?>
+      </a>
+    </li>
+  <?php endif; ?>
+  <?php if(get_field('social_pinterest_url', 'option') ): ?>
+    <li class="social-menu__item">
+      <a href="<?php the_field('social_pinterest_url', 'option') ?>" target="_blank" class="pinterest">
+        <?php
+          echo file_get_contents(get_template_directory_uri() . '/templates/svg/icon-pinterest.svg');
+        ?>
+      </a>
+    </li>
+  <?php endif; ?>
+  <?php if(get_field('social_rss_url', 'option') ): ?>
+    <li class="social-menu__item">
+      <a href="<?php the_field('social_rss_url', 'option') ?>" target="_blank" class="rss">
+        <?php
+          echo file_get_contents(get_template_directory_uri() . '/templates/svg/icon-rss.svg');
+        ?>
+      </a>
+    </li>
+  <?php endif; ?>
+</ul>
+
+<?php endif; ?>
